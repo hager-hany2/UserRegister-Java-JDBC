@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.register</groupId>
+  <artifactId>UserRegister</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  			<dependency>
+			    <groupId>com.zaxxer</groupId>
+			    <artifactId>HikariCP</artifactId>
+			    <version>5.0.1</version>
+			</dependency>
+			<dependency>
+			    <groupId>org.slf4j</groupId>
+			    <artifactId>slf4j-simple</artifactId>
+			    <version>2.0.7</version>
+			</dependency>
+			<dependency>
+			    <groupId>org.slf4j</groupId>
+			    <artifactId>slf4j-api</artifactId>
+			    <version>2.0.7</version>
+	         </dependency>
+			<dependency>
+				<groupId>com.mcnz.jdbc.tutorial</groupId>
+				<artifactId>JdbcTutorial2</artifactId>
+				<version>0.1</version>
+			</dependency>
+			<dependency>
+			    <groupId>org.mindrot</groupId>
+			    <artifactId>jbcrypt</artifactId>
+			    <version>0.4</version>
+            </dependency>
+	    <dependency>
+	        <groupId>com.h2database</groupId>
+	        <artifactId>h2</artifactId>
+	        <version>2.1.214</version>
+	        <scope>runtime</scope>
+	    </dependency>
+
+  </dependencies>
+</project>

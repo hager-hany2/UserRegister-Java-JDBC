@@ -1,0 +1,12 @@
+# Ignore H2 database files
+*.mv.db
+*.trace.db
+
+# Maven target folder
+target/
+*.class
+
+# Eclipse IDE files
+.settings/
+*.classpath
+*.project
