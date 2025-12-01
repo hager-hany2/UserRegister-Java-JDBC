@@ -19,8 +19,6 @@ public class App {
 
 	        User newUser = new User(username, email, password);
 	        userRepository.save(newUser);
-
-	        System.out.println("\nCurrent users in the database:");
 	        scanner.close();
 	    }
 }
